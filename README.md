@@ -1,11 +1,27 @@
 # RGR-pdal-topo
-RGR-pdal-topo is a containerized development environment for processing point cloud data into raster grids, computing topographic metrics from DEMs, and performing basic DEM classiciation for geological mapping.
-This repository contains Python modules, scripts, and notebooks that: 
+RGR-pdal-topo is an open source project to provide Python modules and tutorial notebooks for processing topographic data for fault scarp and alluvial fan analyses. 
+
+This project is supported by the INTERN supplement to the OpenTopography NSF award at ASU (ID: 1948857) to study active normal fault scarps and alluvial fans in the Rio Grande Rift.
+
+Analyses of fault scarps include the mapping of fault extents from topography and measuring fault throw from topographic profiles. The ages of normal faults can be constrained by dating the alluvial surfaces they modify. Topographic metrics including curvature and roughness serve as proxies for alluvial fan age, as alluvial fans smooth over time. 
+
+This repository provides modules for processing point cloud data into raster grid digital elevation models (DEMs), computing topographic metrics (e.g. slope, curvature, spectral filtering), and performing basic DEM classification for geological mapping. 
+
+We provide Python notebooks demonstrating how to:
+
 - Use PDAL to request data from The National Map and the Entwine Amazon S3 bucket that hosts USGS 3DEP lidar point clouds
+
+- Sample lidar point clouds to create 2D topographic profiles
+
 - Generate DEM grids from point clouds using PDAL and GDAL-based python modules
+
 - Compute topographic metrics on DEMs (e.g. surface roughness, slope, curvature, shaded-relief)
-- Perform basic pixel classification using sci-kitlearn
-- The provided example notebooks show analysis of Rio Grande rift normal faults and alluvial fan deposits.
+
+- Perform basic feature segmentation from DEM derivatives to map fault scarp extents
+  
+- Create box plots of alluvial fan roughness statistics with geological map GIS layers
+
+The provided example notebooks show analysis of Rio Grande rift normal faults and alluvial fan deposits, however this code is adaptable for use with other study areas. 
 
 ** Setup is tested for Windows running Docker & VSCode-Remote Containers
 
