@@ -21,7 +21,7 @@ We provide Python notebooks demonstrating how to:
   
 - Create box plots of alluvial fan roughness statistics with geological map GIS layers
 
-The provided example notebooks show analysis of Rio Grande rift normal faults and alluvial fan deposits, however this code is adaptable for use with other study areas. 
+The provided example notebooks and datasets show analysis of Rio Grande rift normal faults and alluvial fan deposits, however this code is adaptable for use with other study areas. 
 
 ** Setup is tested for Windows running Docker & VSCode-Remote Containers
 
