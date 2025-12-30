@@ -12,14 +12,25 @@ We provide Python notebooks demonstrating how to:
 - Use PDAL to request data from The National Map and the Entwine Amazon S3 bucket that hosts USGS 3DEP lidar point clouds
 
 - Sample lidar point clouds to create 2D topographic profiles
+<img width="220" height="428" alt="image" src="https://github.com/user-attachments/assets/879633b8-a640-4761-9bfb-f4abf1fb5dc7" />
+
 
 - Generate DEM grids from point clouds using PDAL and GDAL-based python modules
+<img width="382" height="368" alt="image" src="https://github.com/user-attachments/assets/b8956ecf-52a5-4441-9d51-89338f6425b0" />
+
 
 - Compute topographic metrics on DEMs (e.g. surface roughness, slope, curvature, shaded-relief)
+<img width="658" height="337" alt="image" src="https://github.com/user-attachments/assets/fd994f5b-7444-4ceb-abab-70aeb34f50a0" />
+
+
 
 - Perform basic feature segmentation from DEM derivatives to map fault scarp extents
+<img width="370" height="189" alt="image" src="https://github.com/user-attachments/assets/1fc3673f-a6cf-4eba-a320-d66a01bd3a57" />
+
   
 - Create box plots of alluvial fan roughness statistics with geological map GIS layers
+<img width="744" height="331" alt="image" src="https://github.com/user-attachments/assets/ee13fa0d-2da5-4852-987f-556e7334053b" />
+
 
 The provided example notebooks and datasets show analysis of Rio Grande rift normal faults and alluvial fan deposits, however this code is adaptable for use with other study areas. 
 
